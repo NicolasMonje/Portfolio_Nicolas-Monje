@@ -1,0 +1,28 @@
+.botonAgregar{
+    display: flex;
+    align-items: center;
+    padding: .8rem;
+    margin: 1rem;
+    gap: .5rem;
+    background-color: rgb(218, 215, 215);
+    width: fit-content;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-size: 110%;
+    border: 2px solid transparent;
+    transition: transform .2s ease-in-out;
+}
+
+.botonAgregar:hover{
+    border: 2px solid rgb(21, 89, 145);
+    transform: scale(1.02);
+}
+
+@media screen and (max-width: 900px){
+    
+    .botonAgregar{
+        font-size: 75%;
+        margin: .5rem;
+        padding: .6rem;
+    }
+}

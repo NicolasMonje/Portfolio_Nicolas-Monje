@@ -1,0 +1,104 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-inline: 10rem;
+    background-color: rgb(230, 230, 248);
+    overflow: hidden;
+    border-bottom: 2px solid rgb(59, 162, 247);
+}
+
+.logo{
+    width: 14rem;
+    height: auto;
+    padding: .5rem;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    gap: .6rem;
+    padding: .8rem;
+    border-radius: 1rem;
+    transition: transform .2s ease-in-out;
+    &:hover{
+        background-color: rgb(241, 237, 237);
+        transform: scale(1.03);
+    }
+}
+
+.verMasTarde{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    gap: .6rem;
+    padding: .8rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: transform .2s ease-in-out;
+}
+
+.verMasTarde:hover{
+    background-color: rgb(192, 180, 180);    
+    transform: scale(1.03);
+}
+
+.espaciador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    cursor: default;
+}
+
+@media screen and (max-width: 800px) {
+
+    .logo{
+        width: 10rem;
+        height: auto;
+        padding: .3rem;
+    }
+
+    .home{
+        font-size: 1rem;
+        gap: .3rem;
+        padding: .5rem;
+    }
+
+    .verMasTarde{
+        font-size: 1rem;
+        gap: .3rem;
+        padding: .5rem;
+    }
+
+    header{
+        padding-inline: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .logo{
+        width: 7rem;
+        height: auto;
+        padding: .2rem;
+    }
+
+    .home{
+        font-size: .7rem;
+        gap: .2rem;
+        padding: .2rem;
+    }
+
+    .verMasTarde{
+        font-size: .6rem;
+        gap: .2rem;
+        padding: .2rem;
+    }
+
+    header{
+        padding-inline: 1.5rem;
+    }
+}

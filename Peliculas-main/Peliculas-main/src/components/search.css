@@ -1,0 +1,75 @@
+.containerSearch{
+    background-color: rgb(251, 251, 253);
+    width: 40rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    margin-top: 5rem;
+    border: 2px solid rgb(79, 160, 226)
+}
+
+input{
+    background-color: rgb(251, 251, 253);
+    border: none;
+    font-size: 1.4rem;
+    width: 32rem;
+}
+
+input:focus{
+    outline: none;
+}
+
+.button {
+    all: unset;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: .5rem;
+    margin-left: 1rem;
+    color: rgb(46, 107, 156);
+    transition: transform .3s ease-in-out;
+}
+
+.button:hover{
+    transform: scale(1.08);
+}
+
+@media screen and (max-width: 800px) {
+
+    .containerSearch{
+        width: 25rem;
+        height: 2rem;
+        margin-top: 2rem;
+    }
+
+    input{
+        font-size: .8rem;
+        width: 20rem;
+    }
+
+    .button{
+        font-size: .8rem;
+        padding: .2rem;
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    .containerSearch{
+        width: 19rem;
+        height: 1.8rem;
+        margin-top: 1.8rem;
+    }
+
+    input{
+        font-size: .8rem;
+        width: 15rem;
+    }
+
+    .button{
+        font-size: .6rem;
+        padding: .2rem;
+    }
+
+}

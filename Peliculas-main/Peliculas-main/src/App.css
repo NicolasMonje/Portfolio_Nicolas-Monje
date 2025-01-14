@@ -1,0 +1,53 @@
+.barra1{
+    position: fixed;
+    width: 130%;
+    height: 600px;
+    background-color: rgb(66, 159, 235);
+    z-index: -1;
+    transform: rotate(160deg);
+    top: -55%
+}
+
+.barra2{
+    position: fixed;
+    width: 130%;
+    height: 600px;
+    background-color: rgb(75, 137, 187);
+    z-index: -1;
+    transform: rotate(160deg);
+    top: 105%
+}
+
+/* @media screen and (max-width: 1400px){
+    
+} */
+
+@media screen and (max-width: 900px) {
+
+    .barra1{
+        width: 150%;
+        height: 600px;
+        top: -55%
+    }
+
+    .barra2{
+        width: 150%;
+        height: 600px;
+        top: 100%
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .barra1{
+        width: 180%;
+        height: 600px;
+        top: -68%
+    }
+
+    .barra2{
+        width: 180%;
+        height: 600px;
+        top: 100%
+    }
+}
